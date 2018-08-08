@@ -11,7 +11,7 @@ setup(
     description='Binary search on python sorted sequences',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
-    version='0.2.2',
+    version='0.3.0',
     url='https://github.com/LemonPi/python_binary_search',
     author='Sheng Zhong',
     author_email='zhsh@umich.edu',

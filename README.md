@@ -7,10 +7,7 @@ Requires python >=3.5 for the `typing` module and >= 3.4 for the `enum` module, 
 extract the `search` function from `binary_search/__init__.py` if you need it for a lower version.
 
 ## Install
-1. clone this repository somewhere
-2. `pip install -e .`
-
-TODO add package to PyPI
+1. `pip install binary-search`
 
 ## Usage
 See `tests.py` for more sample usage.
@@ -40,10 +37,11 @@ bs.search(sorted_sequence, [5, None], key=key)
 ```
 
 ## Development and testing
-Follow instructions for installing it above, except for step 1 fork the repository and clone your own fork. 
-Since you installed in editable mode, you can edit the source and test with running `pytest`.
-
-Put any new tests in `tests.py` with `pytest` conventions.
-
-After any feature additions or fixes, create a pull request on GitHub. 
+1. Fork the repository
+2. Clone your fork
+3. Install it in editable mode `pip install -e .`
+4. Make any changes and add new tests to `tests.py`
+5. Run pytest `python -m pytest`
+6. Commit and push to your fork
+7. Make pull request (merge your fork back to main repo)
 
