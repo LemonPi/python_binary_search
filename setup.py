@@ -1,9 +1,16 @@
 from setuptools import setup, find_packages
 
+
+def read(fpath, encoding='utf-8'):
+    with open(fpath, encoding=encoding) as f:
+        return f.read()
+
+
 setup(
     name='binary_search',
     description='Binary search on python sorted sequences',
-    version='0.2.0',
+    long_description=read('README.md'),
+    version='0.2.1',
     url='https://github.com/LemonPi/python_binary_search',
     author='Sheng Zhong',
     author_email='zhsh@umich.edu',
